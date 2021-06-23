@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Animation Test">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio">
+  <meta name="author" content="Ian M">
+  <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+  <title>Portfolio - Ian Mumford</title>
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./CSS/styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/87369da2a0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+
+    <section>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-">
+        <a class="navbar-brand" href="#">Ian Mumford Web Development</a>
+        <span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Eductation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/imacmumf" target="blank" rel="noopener noreferrer">GitHub</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Audio
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://imacmumf.wixsite.com/ianmumfordmusic" target="_blank" rel="noopener noreferrer">Sound Design & <br> Audio Production</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://soundcloud.com/2belowmusic" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+      </nav>
+
+    </section>
+
+
+    <div class="panel bg-image" id="panel-1">
+      <div>
+        <h1 class="intro-name">Ian Mumford <br /> Web Development</h1>
+        <p id="demo" class="intro-paragraph">Hello! My name is Ian Mumford and I am a web and application devloper based out of Minnesota. <br>I specialize in front end web development using HTML, CSS, JavaScript, React, Node.js, and Java</p>
+
+
+      </div>
+    </div>
+
+    <section id="about-me">
+
+      <div class="panel" data-color="white" >
+        <div class="row">
+          <div class="col">
+            <h2>About Me</h2>
+            <hr>
+            <p class="about-me-p container-fluid">I am a technology and software enthusiast. In my spare time I enjoy learning new programming languages and staying up to date with current trends in tech! <br> Before getting into web development I
+              recieved a degree in music production and
+              recording technology from McNally Smith College of Music. I still work as a freelance audio eningeer and producer when I'm not studying or working on dev projects.</p>
+
+            <img class="emoji border-left-0 " src="./images/face-emoji.jpg" alt="My Emoji" style="@keyframes pulse {
+            0% {
+              opacity: 0.5;
+               transform: scale(0.5);
+            }
+            100% {
+              opacity: 0;
+              transform: scale(2.75);
+            }
+
+          }">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+
+
+      <div class="panel" data-color="black" >
+        <div class="row">
+          <div class="col">
+            <h2>Experience</h2>
+            <hr>
+            <p>I have worked as a freelance web developer for 2 years, during which I have built several websites. <br> I have experience with HTML, CSS, JavaScript, React.js, Bootstrap, Node.js, Java and some Express.</p>
+
+            <div id="logo-carousel-1" class="carousel slide " data-ride="carousel" data-interval="2000">
+              <div class="carousel-inner ">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-center">
+                    <img class="d-block logo-pic " src="./images/html-pic.png" alt="HTML Logo">
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="d-flex justify-content-center">
+                    <img class="d-block logo-pic" src="./images/css-pic.jpeg" alt="CSS Logo">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <img class="d-block logo-pic" src="./images/js-pic.png" alt="JS-Logo">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <img class="d-block logo-pic" src="./images/java-pic.jpeg" alt="Java-Logo">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="education">
+
+
+      <div class="panel" data-color="white" >
+        <div class="row">
+          <div class="col">
+            <h2>Education</h2>
+            <hr>
+            <p class="education-p">I graduated from Normdale Communtiy College in 2021 with an associates degree in Computer Technology, a degree that focus primarily on computer hardware and software. <img class="comp-sci-pic"
+                src="./images/comp-sci-pic.jpeg" alt=""><br> My courses covered topics such as the software development life
+              cycle, the TCP/IP suit, network topology, system architecture, and languages including JavaScript, Visual Basic, Java, HTML and CSS. Outside of my curriculum I have studied full stack web development through resources such as Udemy,
+              Coursera, and Code Academy. <br> Before graduating from Normandale I received an associates degree in music production and recording technology from McNally Smith College of Music. </p>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="hobbies" >
+
+      <div class="panel hobbies-panel" data-color="black">
+        <div class="row">
+          <div class="col">
+            <h2>Hobbies</h2>
+            <hr>
+            <p class="hobbies-p">
+              In my spare time I work as an audio engineer. I specialize in sound design, mixing and mastering, foley and composition.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col speaker-vid">
+            <figure>
+              <iframe class="video-player" width="560" height="315" src="https://www.youtube.com/embed/xmTle6a42sI" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <figcaption>Sci Fi Sound Design and Foley</figcaption>
+            </figure>
+          </div>
+
+          <div class="col halo-vid">
+          <figure>
+              <iframe class="video-player" width="560" height="315" src="https://www.youtube.com/embed/yne3QQ1IVpo" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <figcaption>Video game sound design, foley and composition</figcaption>
+          </figure>
+
+        </div>
+      </div>
+
+  </div>
+
+  </section>
+
+
+  <footer class="panel" id="footer">
+    <div class="row">
+      <div class="col">
+        <h2>Contact Me</h2>
+        <a href="https://www.linkedin.com/in/ianmumford14/" ><i class="social-icon fab fa-linkedin"></i></a>
+        <a href="mailto:imacmumf@gmail.com"><i class="social-icon fas fa-envelope-square"></i></a>
+        <a href="https://github.com/imacmumf"><i class="social-fab fa-github-square"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="index.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>
