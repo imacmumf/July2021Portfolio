@@ -18,7 +18,7 @@ let introImage = $(".bg-image");
 $(window).on('scroll', function(){
   var st = $(this).scrollTop();
   introImage.css({
-    'opacity': 1 - st/600
+    'opacity': 1 - st/1000
   });
 });
 

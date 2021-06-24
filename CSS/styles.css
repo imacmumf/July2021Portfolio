@@ -1,10 +1,8 @@
 /* Setting fade transition and default settings */
 body {
-
   background-color: #f5f5f5;
   transition: background-color 1s ease;
   animation: fadeIn 2s;
-
 }
 
 .wrapper {
@@ -32,21 +30,17 @@ body {
   /* turn above on to see the edge of panels */
 }
 
-.dark-section{
+.dark-section {
   background: linear-gradient(#222222, #3D3D3D);
   color: #f7f7f7;
 }
 
-.light-section{
+.light-section {
   background: linear-gradient(#f5f5f5, #f0f1f5);
   color: #616161;
 }
 
-
 /* Landing Page */
-
-
-
 .bg-image p {
   /* mix-blend-mode: hard-light; */
   color: #f7f7f7;
@@ -60,11 +54,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.intro-name  {
+
+.intro-name {
   -webkit-text-fill-color: transparent;
 }
-
-
 
 /* About Panel */
 .about-me-p {
@@ -81,17 +74,38 @@ body {
 }
 
 @keyframes shake {
-  0% {transform: rotate(-8deg);}
-  8% {transform: rotate(8deg);}
-  16% {transform: rotate(-8deg);}
-  24% {transform: rotate(8deg);}
-  32% {transform: rotate(-8deg);}
-  40% {transform: rotate(8deg);}
-  48% {transform: rotate(0);}
-  100% {transform: rotate(0);}
+  0% {
+    transform: rotate(-8deg);
+  }
 
+  8% {
+    transform: rotate(8deg);
+  }
+
+  16% {
+    transform: rotate(-8deg);
+  }
+
+  24% {
+    transform: rotate(8deg);
+  }
+
+  32% {
+    transform: rotate(-8deg);
+  }
+
+  40% {
+    transform: rotate(8deg);
+  }
+
+  48% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
 }
-
 
 .video-player {
   margin: 0 auto;
@@ -128,10 +142,9 @@ body {
 }
 
 /* Hobbies Panel */
-.hobbies-panel{
+.hobbies-panel {
   padding: 4rem;
 }
-
 
 /* Text Styling */
 body {
@@ -152,7 +165,6 @@ h1, h2 {
 p {
   max-width: 30em;
   margin: 1.618em;
-
   text-align: center;
   font-size: 1.3rem;
 }
@@ -178,9 +190,6 @@ hr {
   background-color: #f5f5f5;
 }
 
-
-
-
 /* Footer */
 #footer.panel {
   min-height: 30vh;
@@ -189,14 +198,9 @@ hr {
   color: #4f4f52;
 }
 
-.social-icon{
+.social-icon {
   color: #4f4f52;
 }
-
-
-
-
-
 
 /* Keyframes */
 @keyframes fadeIn {
@@ -210,10 +214,11 @@ hr {
 }
 
 /* Mobile Config */
-
-@media only screen and (max-width: 480px){
-
-  .panel{
+@media only screen and (max-width: 480px) {
+  .panel {
     margin: 3rem auto;
+    background-attachment: auto;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
