@@ -12,6 +12,7 @@
 
 
 
+
 //Fade out background image
 let introImage = $(".bg-image");
 
