@@ -26,6 +26,7 @@ a:hover{
 .panel {
   /* min height incase content is higher than window height */
   min-height: 110vh;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -50,6 +51,7 @@ a:hover{
   /* mix-blend-mode: hard-light; */
   color: #f7f7f7;
 }
+
 
 /* Background Image */
 .bg-image {
@@ -168,6 +170,7 @@ h1, h2 {
 }
 
 p {
+
   max-width: 30em;
   margin: 1.618em;
   text-align: center;
