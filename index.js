@@ -1,5 +1,6 @@
 
 
+
 //Navbar Opacity on scroll
   $(window).on('scroll', function(){
     if ($(window).scrollTop()>10){
@@ -11,6 +12,26 @@
   });
 
 
+  //Clock
+
+  let date = new Date();
+  let d = date.getUTCDate();
+  let dayNum = date.getUTCDay();
+  let dayName = ['Sunday', 'Monday','Tuesday', 'Wednesday', 'Thurday', 'Friday', 'Saturday'];
+  let month = date.getMonth() + 1;
+  let year = date.getUTCFullYear();
+  let time = date.getUTCHours();
+
+
+  $(".clock").html(dayName[dayNum] + " " + d + "-" + month + "-" + year);
+
+if(time < 12 ){
+  $(".time-greeting").html("Good Morning!");
+} else if (time >= 12 && time < 18){
+  $(".time-greeting").html("Good Afternoon!");
+} else {
+  $(".time-greeting").html("Good Evening!");
+};
 
 
 //Fade out background image
