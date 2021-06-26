@@ -29,7 +29,7 @@ if(time < 12 ){
   $(".time-greeting").html("Good Morning!");
 } else if (time >= 12 && time < 18){
   $(".time-greeting").html("Good Afternoon!");
-} else {
+} else if (time >= 18 && time <= 24){
   $(".time-greeting").html("Good Evening!");
 };
 
