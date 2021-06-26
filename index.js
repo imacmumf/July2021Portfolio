@@ -15,12 +15,12 @@
   //Clock
 
   let date = new Date();
-  let d = date.getUTCDate();
-  let dayNum = date.getUTCDay();
+  let d = date.getDate();
+  let dayNum = date.getDay();
   let dayName = ['Sunday', 'Monday','Tuesday', 'Wednesday', 'Thurday', 'Friday', 'Saturday'];
   let month = date.getMonth() + 1;
-  let year = date.getUTCFullYear();
-  let time = date.getUTCHours();
+  let year = date.getFullYear();
+  let time = date.getHours();
 
 
   $(".clock").html(dayName[dayNum] + " " + d + "-" + month + "-" + year);
