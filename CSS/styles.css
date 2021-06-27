@@ -222,16 +222,45 @@ hr {
 }
 
 /* Mobile Config */
-@media only screen and (max-width: 480px) {
-  /* .panel {
-    margin: 3rem auto;
-  } */
 
-  /* .bg-image{
-    background-size: cover;
+/* iPhone x config */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  .bg-image{
+    background-size: contain;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 
-  } */
+  }
+}
+
+/* iPhone 6+, 7, and 8+ */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .bg-image{
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+}
+
+/* iPhone 6, 6s, 7, and 8 */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .bg-image{
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
 }
