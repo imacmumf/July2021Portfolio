@@ -229,9 +229,10 @@ hr {
   and (max-device-width: 812px)
  {
   .bg-image{
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
 
   }
 }
