@@ -116,8 +116,9 @@ a:hover{
 
 .video-player {
   margin: 0 auto;
-  border: 10px outset #8b8c94;
+  border: 6px outset #8b8c94;
   border-radius: 2%;
+  box-shadow: 5px 5px 15px #f0f0f0;
 }
 
 .speaker-vid {
