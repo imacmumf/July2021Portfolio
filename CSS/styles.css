@@ -55,12 +55,20 @@ a:hover{
 
 /* Background Image */
 .bg-image {
-  background-image: url("../images/lake.jpg");
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url("../images/lake.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
+/* .opaque-back {
+  background-color: #48494a;
+  opacity: 0.7;
+  border-radius: 90%;
+  height: 5em;
+  width: 5em;
+} */
 
 .intro-name {
   -webkit-text-fill-color: transparent;
@@ -70,6 +78,10 @@ a:hover{
 .about-me-p {
   text-align: center;
   padding: 2rem;
+}
+
+.clock {
+  font-size: 2rem;
 }
 
 .emoji {
