@@ -223,16 +223,17 @@ hr {
 }
 
 /* Mobile Config */
-@media only screen and (max-width: 480px) {
-  /* .panel {
-    margin: 3rem auto;
-  } */
 
-  /* .bg-image{
+/* iPhone x config */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+ {
+  .bg-image{
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
 
-  } */
+  }
 }
