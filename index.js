@@ -23,7 +23,7 @@
   let time = date.getHours();
 
 
-  $(".clock").html(dayName[dayNum] + " " + d + "-" + month + "-" + year);
+$(".clock").html(dayName[dayNum] + " " + d + "-" + month + "-" + year);
 
 if(time < 12 ){
   $(".time-greeting").html("Good Morning");
@@ -32,6 +32,8 @@ if(time < 12 ){
 } else if (time >= 18 && time <= 24){
   $(".time-greeting").html("Good Evening");
 };
+
+
 
 
 //Fade out background image
