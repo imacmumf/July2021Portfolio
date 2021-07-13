@@ -9,14 +9,30 @@ body {
   overflow-x: hidden;
 }
 
+
 /* Navbar Styles */
 .navbar {
   font-family: 'Dosis', sans-serif;
   padding: 0.8rem 5rem;
   /* Seperate brand and items */
   justify-content: space-between;
-
+  transition-duration: 0.3s;
 }
+
+.navbar.active {
+  color: #555;
+  font-size: 1.1rem;
+  transition-duration: 0.3s;
+  opacity: 0.6;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+  font-size: 1.1rem;
+  transition-duration: 0.3s;
+  opacity: 0.6;
+}
+
 
 a:hover{
   opacity: 1.0;

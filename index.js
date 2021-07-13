@@ -2,14 +2,18 @@
 
 
 //Navbar Opacity on scroll
-  $(window).on('scroll', function(){
-    if ($(window).scrollTop()>10){
-      $(".navbar").css("opacity", "0.5");
-    } else{
-      $(".navbar").css("opacity", "1.0");
-    }
+$(function() {
+  $(window).on('scroll', function() {
+    if ($(window).scrollTop() > 10) {
+      $('.navbar').addClass('active');
 
+    } else {
+      $('.navbar').removeClass('active');
+      $('.navbar').addClass('navbar');
+
+    }
   });
+});
 
 
   //Clock
