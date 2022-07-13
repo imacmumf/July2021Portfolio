@@ -2,7 +2,7 @@
 body {
   background-color: #f5f5f5;
   transition: background-color 1s ease;
-  animation: fadeIn 2s;
+  animation: fadeIn 1.5s;
 }
 
 .wrapper {
@@ -45,6 +45,7 @@ a:hover{
 
   display: flex;
   flex-direction: column;
+  /* flex-wrap: nowrap; */
   justify-content: space-around;
   align-items: center;
   font-family: 'Dosis', sans-serif;
@@ -91,6 +92,20 @@ a:hover{
 }
 
 /* About Panel */
+.about-div{
+  margin-top: 1rem;
+
+}
+
+.projects-div{
+  margin-top: 7rem;
+
+}
+
+.projects-p{
+  text-align: left;
+}
+
 .about-me-p {
   text-align: center;
   padding: 2rem;
@@ -99,6 +114,44 @@ a:hover{
 .clock {
   font-size: 2rem;
 }
+
+.button-pic{
+  padding: 0;
+  margin: 1rem;
+  border-radius: 10px;
+
+}
+
+.button-pic:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      /* animation: pulse1 0.5s infinite linear alternate; */
+  }
+
+
+/* #calc-button-pic{
+  animation: pulse1 1.5s infinite linear alternate;
+}
+
+#wordle-button-pic{
+  animation: pulse1 1s infinite linear alternate;
+} */
+
+
+
+@keyframes pulse1 {
+  0% {
+    transform: scale(1.0);
+
+}
+50% {
+  transform: scale(1.1);
+}
+
+100% {
+    transform: scale(1.1);
+}
+}
+
 
 .emoji {
   height: 200px;
