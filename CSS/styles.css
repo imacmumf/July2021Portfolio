@@ -42,15 +42,30 @@ a:hover{
 .panel {
   /* min height incase content is higher than window height */
   min-height: 110vh;
-
+  margin-bottom: 0.3rem;
   display: flex;
   flex-direction: column;
   /* flex-wrap: nowrap; */
   justify-content: space-around;
   align-items: center;
   font-family: 'Dosis', sans-serif;
+  box-shadow: 7px 5px 5px #3d3c3c;
+
   /* outline: 10px solid hotpink; */
   /* turn above on to see the edge of panels */
+}
+
+/* Parallax Divs */
+.parallax{
+  height: 8rem;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url("../images/lake.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 60%;
+
 }
 
 .dark-section {
@@ -91,15 +106,25 @@ a:hover{
   -webkit-text-fill-color: transparent;
 }
 
+.intro-box{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
 /* About Panel */
 .about-div{
+  padding-top: 2rem;
   margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 }
 
 .projects-div{
+  padding-top: 2rem;
   margin-top: 7rem;
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-left: 2rem;
 }
 
 .projects-p{
@@ -110,6 +135,10 @@ a:hover{
   text-align: center;
   padding: 2rem;
 }
+
+/* .experience-box{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+} */
 
 .clock {
   font-size: 2rem;
@@ -127,14 +156,6 @@ a:hover{
       /* animation: pulse1 0.5s infinite linear alternate; */
   }
 
-
-/* #calc-button-pic{
-  animation: pulse1 1.5s infinite linear alternate;
-}
-
-#wordle-button-pic{
-  animation: pulse1 1s infinite linear alternate;
-} */
 
 
 
@@ -223,6 +244,13 @@ a:hover{
 }
 
 /* Education Panel */
+
+.ed-box{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
 .comp-sci-pic {
   height: 150px;
   border-radius: 7%;
