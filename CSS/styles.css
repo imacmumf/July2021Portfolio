@@ -216,20 +216,7 @@ a:hover{
   }
 }
 
-.video-player {
-  margin: 0 auto;
-  border: 6px outset #8b8c94;
-  border-radius: 2%;
-  box-shadow: 5px 5px 15px #f0f0f0;
-}
 
-.speaker-vid {
-  margin-top: 4rem;
-}
-
-.halo-vid {
-  margin-bottom: 4rem;
-}
 
 /* Experience Panel */
 .logo-pic {
@@ -248,7 +235,7 @@ a:hover{
 .ed-box{
   padding-top: 2rem;
   padding-bottom: 3rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .comp-sci-pic {
@@ -261,6 +248,38 @@ a:hover{
 /* Hobbies Panel */
 .hobbies-panel {
   padding: 4rem;
+}
+.video-player {
+  margin: 0 auto;
+  border: 2px outset #8b8c94;
+  border-radius: 1%;
+  /* box-shadow: 10px 10px 10px #272729; */
+  animation: shadow-pulse 3s infinite linear alternate;
+}
+
+.speaker-vid {
+  margin-top: 4rem;
+}
+
+.halo-vid {
+  margin-bottom: 4rem;
+}
+
+
+@keyframes shadow-pulse {
+  0%{
+    box-shadow: 3px 7px 10px 5px #272729;
+
+  }
+  50%{
+    box-shadow: 5px 8px 10px 6px #3e3f40;
+
+  }
+  100%{
+    box-shadow: 3px 7px 10px 5px #272729;
+    
+  }
+
 }
 
 /* Text Styling */
@@ -314,6 +333,7 @@ hr {
   height: 100px;
   background-color: #edeff0;
   color: #4f4f52;
+  
 }
 
 .social-icon {
